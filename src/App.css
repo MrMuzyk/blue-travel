@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.main-width {
+  padding-left: 120px;
+  padding-right: 120px; }
+
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden; }
+  .slider-wrapper .slide-content {
+    padding-top: 320px;
+    height: 640px; }
+  .slider-wrapper .london-long-slide {
+    background-image: url("/images/front-page/slider/london-long.jpg"); }
+  .slider-wrapper .london-short-slide {
+    background-image: url("/images/front-page/slider/london-short.jpg"); }
+  .slider-wrapper .norway-slide {
+    background-image: url("/images/front-page/slider/norway.jpg"); }
+  .slider-wrapper .norway-slide, .slider-wrapper .london-long-slide, .slider-wrapper .london-short-slide {
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .slider-wrapper .slick-dots {
+    transform: translate(0%, -200%); }
+  .slider-wrapper .slick-dots li button:before {
+    color: #d8d8d8;
+    font-size: 20px; }
+  .slider-wrapper .slick-dots li.slick-active button:before {
+    color: #ffffff; }
+  .slider-wrapper .slide-title {
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 23px; }
+  .slider-wrapper .slide-description {
+    font-size: 20px;
+    font-weight: 300;
+    color: white; }
+
+.header {
+  position: absolute;
+  top: 35px;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  font-weight: 500; }
+  .header .menu {
+    display: flex; }
+    .header .menu > * {
+      margin-left: 25px;
+      text-transform: capitalize;
+      font-size: 20px;
+      cursor: pointer; }
+  .header .logo {
+    text-transform: uppercase;
+    font-size: 26px;
+    cursor: pointer; }
+
+.why-us-section {
+  height: 595px;
+  background-color: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #2f3538; }
+  .why-us-section-title {
+    margin-top: 85px;
+    font-size: 28px;
+    font-weight: 500; }
+  .why-us-section .why-us-content {
+    margin-top: 82.5px;
+    display: flex;
+    justify-content: center; }
+  .why-us-section .why-us-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .why-us-section .why-us-item-description {
+      text-align: center;
+      font-weight: 300;
+      line-height: 1.25;
+      font-size: 16px; }
+    .why-us-section .why-us-item-image {
+      height: 67px;
+      width: auto;
+      margin-bottom: 56px; }
+    .why-us-section .why-us-item-title {
+      margin-bottom: 22px;
+      font-size: 20px;
+      font-weight: 500; }
+
+.contact-section {
+  height: 550px;
+  background-color: #2f3538;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; }
+  .contact-section-title {
+    margin-top: 84px;
+    margin-bottom: 84px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center; }
+  .contact-section-content {
+    display: flex;
+    justify-content: center; }
+    .contact-section-content-images-container {
+      display: flex;
+      flex-direction: column; }
+    .contact-section-content-mac {
+      width: 450px;
+      position: absolute;
+      top: -55px;
+      left: -95px;
+      transform: rotate(-20deg); }
+    .contact-section-content-plant {
+      height: 291px;
+      width: auto;
+      position: absolute;
+      top: -105px;
+      right: 7px; }
+    .contact-section-content-phone {
+      position: absolute;
+      height: 300px;
+      transform: rotate(25deg);
+      bottom: 31px;
+      right: 160px; }
+    .contact-section-content-details-item {
+      display: flex;
+      margin-bottom: 26px;
+      font-size: 20px;
+      font-weight: 300;
+      margin-left: 50px; }
+    .contact-section-content-details-item-icon {
+      width: 20px;
+      margin-right: 14px; }
