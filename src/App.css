@@ -188,3 +188,71 @@ body {
     .contact-section-content-details-item-icon {
       width: 20px;
       margin-right: 14px; }
+
+.offers-section {
+  color: #2f3538; }
+  .offers-section-title {
+    margin-top: 85px;
+    margin-bottom: 85px;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center; }
+  .offers-section-offer-image {
+    width: 480px;
+    min-width: 480px;
+    height: 300px; }
+  .offers-section-offer-container {
+    display: flex;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 16px 2px rgba(0, 0, 0, 0.2); }
+    .offers-section-offer-container-buttons-container {
+      display: flex;
+      transform: translateX(-35%); }
+  .offers-section-offer-title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+  .offers-section-offer-description {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-start; }
+  .offers-section-button {
+    height: 45px;
+    min-width: 90px;
+    color: white;
+    background-color: #2aa2e3;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    outline: none;
+    border: none; }
+    .offers-section-button-price {
+      margin-right: 110px; }
+    .offers-section-button-details {
+      cursor: pointer;
+      margin-left: 85px;
+      margin-right: 50px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-transform: uppercase; }
+  .offers-section-icon {
+    height: 17px;
+    margin-right: 15px; }
+  .offers-section-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .offers-section-offer-details {
+    padding-left: 60px;
+    padding-right: 50px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
