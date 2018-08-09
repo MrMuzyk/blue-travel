@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Calendar from './components/Calendar';
+import Calendar from './components/Calendar/Calendar';
 import OfferDetails from './components/OfferDetails';
 import HeaderSlider from './components/HeaderSlider';
 import WhyUs from './components/WhyUs';
@@ -30,6 +30,7 @@ class LandingPage extends Component{
       <Offers />
       <WhyUs />
       <Contact />
+      <Calendar />
     </div>
   }
 }
