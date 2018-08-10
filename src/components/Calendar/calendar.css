@@ -10,8 +10,10 @@
 
 .calendar__container {
   margin-top: 50px;
-  width: 960px;
+  min-width: 960px;
+  max-width: 960px;
   height: 692px;
+  max-height: 960px;
   background-color: #ffffff;
   background: white;
 }
@@ -23,7 +25,7 @@
 }
 
 .calendar__container h1 {
-  margin-top: 84px;
+  margin: 84px 0 60px 0;
   font-family: Roboto;
   font-size: 28px;
   font-weight: 500;

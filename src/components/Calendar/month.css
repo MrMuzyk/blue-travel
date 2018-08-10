@@ -1,0 +1,23 @@
+.title {
+  font-size: 20px
+}
+.calendar__grid {
+  width: 100%;
+  padding: 50px 0 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calendar__grid div {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  padding-top: 11px;
+
+}
+
+.calendar__selected {
+  border: 2px solid #2aa2e3;
+  border-radius: 50%;
+  cursor: pointer;
+}
