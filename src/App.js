@@ -30,7 +30,6 @@ class LandingPage extends Component{
       <Offers />
       <WhyUs />
       <Contact />
-      <Calendar />
     </div>
   }
 }

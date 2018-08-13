@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 
 import Month from './Month';
 import './calendar.css';
@@ -68,7 +69,7 @@ const PAZDZIERNIK_2018 = (<div className="calendar__grid">
   <div>14</div>
   <div>15</div>
   <div>16</div>
-  <div className="calendar__selected">17</div>
+  <Link to="/"><div className="calendar__selected">17</div></Link>
   <div>18</div>
   <div>19</div>
   <div>20</div>
