@@ -1,0 +1,50 @@
+.calendar {
+  position: absolute;
+  z-index: 11;
+  width: 100vw;
+  height: 100vmax;
+  background: rgba(216, 216, 216, 0.9);
+  display: flex;
+  justify-content: center;
+}
+
+.calendar__container {
+  margin-top: 50px;
+  min-width: 960px;
+  max-width: 960px;
+  height: 692px;
+  max-height: 960px;
+  background-color: #ffffff;
+  background: white;
+}
+
+.calendar__cross {
+  float: right;
+  margin: 15px 15px 0 0;
+  cursor: pointer;
+}
+
+.calendar__container h1 {
+  margin: 84px 0 60px 0;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2f3538;
+}
+
+.calendar__month__container {
+  width: 100%;
+  display: flex;
+  margin: 20px 0 0 0;
+}
+
+.calendar__month {
+  height: 100%;
+  width: 50%;
+  text-align: center;
+}
