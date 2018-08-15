@@ -1,129 +1,141 @@
 {
-	"offers": [{
-			"name": "Londyn 2-dniowa wycieczka",
-			"description": "Marzyłeś o tym by zwiedzić Londyn? Dwa dni wystarczą. Odwiedzimy wszystkie najwspanialsze muzea i zobaczymy największe atrakcje tego miasta.",
-			"price": "550 zł",
-			"date": "30.09.2018",
-			"destination": "London",
-			"flights": "Loty: Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Hathrow",
-			"backgroundImagePath": "/images/front-page/offers/london-2-days.jpg",
-			"tourPlanDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
-			"tourPlanDetails": [{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				}
-			],
-			"tourPriceIncludes": [{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				}
-			]
-		},
-		{
-			"name": "Sandefjord 1-dniowa wycieczka",
-			"description": "Masz weekend, a do tego uwielbiasz podroże? Ta wycieczka jest własnie dla Ciebie! Odwiedzisz klimatyczne norwieskie miasteczko Sandefjord. Odkryjesz jeden z fiordów Morza Północengo.",
-			"price": "550 zł",
-			"date": "30.09.2018",
-			"destination": "Norway",
-			"flights": "Loty: Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Hathrow",
-			"backgroundImagePath": "/images/front-page/offers/norway.jpg",
-			"tourPlanDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
-			"tourPlanDetails": [{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				}
-			],
-			"tourPriceIncludes": [{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				}
-			]
-		},
-		{
-			"name": "Londyn 3-dniowa wycieczka",
-			"description": "Marzyłeś o tym by zwiedzić Londyn? Trzy dni wystarczą. Odwiedzimy wszystkie najwspanialsze muzea i zobaczymy największe atrakcje tego miasta.",
-			"price": "550 zł",
-			"date": "30.09.2018",
-			"destination": "London",
-			"flights": "Loty: Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Hathrow",
-			"backgroundImagePath": "/images/front-page/offers/london-3-days.jpg",
-			"tourPlanDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
-			"tourPlanDetails": [{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				}
-			],
-			"tourPriceIncludes": [{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				},
-				{
-					"detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
-				}
-			]
-		}
-	]
+  "offers": [
+    {
+      "id": "1",
+      "name": "Londyn 2-dniowa wycieczka",
+      "description": "Marzyłeś o tym by zwiedzić Londyn? Dwa dni wystarczą. Odwiedzimy wszystkie najwspanialsze muzea i zobaczymy największe atrakcje tego miasta.",
+      "price": "550 zł",
+      "date": "30.09.2018, 31.09.2018",
+      "destination": "Londyn",
+      "flights": "Loty: Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Hathrow",
+      "backgroundImagePath": "/images/front-page/offers/london-2-days.jpg",
+      "tourPlanDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+      "tourPlanDetails": [
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        }
+      ],
+      "tourPriceDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+      "tourPriceIncludes": [
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sandefjord 1-dniowa wycieczka",
+      "description": "Masz weekend, a do tego uwielbiasz podroże? Ta wycieczka jest własnie dla Ciebie! Odwiedzisz klimatyczne norwieskie miasteczko Sandefjord. Odkryjesz jeden z fiordów Morza Północengo.",
+      "price": "550 zł",
+      "date": "30.09.2018, 31.09.2018",
+      "destination": "Norwegia",
+      "flights": "Loty: Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Hathrow",
+      "backgroundImagePath": "/images/front-page/offers/norway.jpg",
+      "tourPlanDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+      "tourPlanDetails": [
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        }
+      ],
+      "tourPriceIncludes": [
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Londyn 3-dniowa wycieczka",
+      "description": "Marzyłeś o tym by zwiedzić Londyn? Trzy dni wystarczą. Odwiedzimy wszystkie najwspanialsze muzea i zobaczymy największe atrakcje tego miasta.",
+      "price": "550 zł",
+      "date": "30.09.2018, 31.09.2018",
+      "destination": "Londyn",
+      "flights": "Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Hathrow",
+      "backgroundImagePath": "/images/front-page/offers/london-3-days.jpg",
+      "tourPlanDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+      "tourPlanDetails": [
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum plan dolor sit amet consectetur adipiscing elit"
+        }
+      ],
+      "tourPriceDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+      "tourPriceIncludes": [
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum cena dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        },
+        {
+          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+        }
+      ]
+    }
+  ]
 }

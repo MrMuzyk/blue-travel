@@ -53,7 +53,7 @@ class Offers extends Component{
                       <img src="/images/front-page/offers/map.svg" className="offers-section-icon"/>
                       <img src="/images/front-page/offers/price-tag.svg" className="offers-section-icon"/>
                     </div>
-                    <button className="offers-section-button offers-section-button-details">Więcej ></button>
+                    <Link to={"offer-details/" + elem.id}><button className="offers-section-button offers-section-button-details">Więcej ></button></Link>
                   </div>
                 </div>
               </div>

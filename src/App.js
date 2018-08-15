@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
+import scrollToComponent from 'react-scroll-to-component';
+
 import './App.css';
 import Header from './components/Header';
 import Calendar from './components/Calendar/Calendar';
@@ -15,7 +17,7 @@ class App extends Component {
       <div>
         <Switch>
           <Route exact path='/' component={LandingPage}/>
-          <Route path='/offer-details' component={OfferDetails}/>
+          <Route path='/offer-details/:offerId' component={OfferDetailsPage}/>
         </Switch>
       </div>
     );
@@ -30,6 +32,15 @@ class LandingPage extends Component{
       <Offers />
       <WhyUs />
       <Contact />
+    </div>
+  }
+}
+
+class OfferDetailsPage extends Component{
+  render(){
+    return <div>
+      <Header />
+      <OfferDetails linkParams={this.props.match.params.offerId}/>
     </div>
   }
 }

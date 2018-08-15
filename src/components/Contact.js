@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Contact extends Component{
     render(){
-      return <div className="contact-section">
+      return <div className="contact-section" >
         <div className="contact-section-content">
           <img src="/images/front-page/contact/mac.png" className="contact-section-content-mac"/>
         <div>
