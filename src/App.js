@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
-import scrollToComponent from 'react-scroll-to-component';
 
 import './App.css';
 import Header from './components/Header';
