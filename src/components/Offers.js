@@ -61,7 +61,7 @@ class Offers extends Component{
         </div>
       }else {
         return <div className="">
-          <h2 className="offers-section-title">Oferty</h2>
+          <h2 className="offers-section-title"></h2>
       </div>
       }
     }

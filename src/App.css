@@ -107,6 +107,11 @@ body {
     text-transform: uppercase;
     font-size: 26px;
     cursor: pointer; }
+  .header .logo-paper-plane {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px; }
 
 .why-us-section {
   height: 595px;

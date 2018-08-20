@@ -4,7 +4,7 @@ import ReactSVG from 'react-svg';
 import { withRouter } from 'react-router-dom';
 import { animateScroll } from 'react-scroll';
 
-const paperPlane = '../../public/images/paper-plane-regular.svg';
+import paperPlane from './paper-plane-regular.svg';
 
 class Header extends Component{
 
@@ -28,7 +28,7 @@ class Header extends Component{
 
   render(){
     return <nav className="header main-width">
-      <Link to="/"><div className="logo"><ReactSVG path="plane.svg" />Paper Plane</div></Link>
+      <Link to="/"><div className="logo"><ReactSVG className="logo-paper-plane" path={paperPlane}/>Paper Plane</div></Link>
       <ul className="menu">
         <li onClick={ (e) => this.onLinkClick(650)}>oferty</li>
         <li onClick={ (e) => this.onLinkClick(1650)}>dlaczego my</li>
