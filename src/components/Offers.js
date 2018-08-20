@@ -34,7 +34,6 @@ class Offers extends Component{
     render(){
       if (this.state.isLoading == false) {
         return <div className="offers-section main-width">
-          <h2 className="offers-section-title">Oferty</h2>
           {
             this.state.offers.offers.map( (elem, index) => {
               return <div key={elem.index} className="offers-section-offer-container">

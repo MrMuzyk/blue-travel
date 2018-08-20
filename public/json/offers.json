@@ -7,15 +7,15 @@
       "price": "550 zł",
       "date": "30.09.2018, 31.09.2018",
       "destination": "Londyn",
-      "flights": "Loty: Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Hathrow",
+      "flights": "Loty: Port Lotniczy Wrocław-Strachowice - Port Lotniczy Londyn-Luton",
       "backgroundImagePath": "/images/front-page/offers/london-2-days.jpg",
-      "tourPlanDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
+      "tourPlanDescription": "Londyn to miasto dynamiczne i tętniące życiem.",
       "tourPlanDetails": [
         {
-          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+          "detailsText": "British Museum "
         },
         {
-          "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
+          "detailsText": "China"
         },
         {
           "detailsText": "Lorem ipsum dolor sit amet consectetur adipiscing elit"
