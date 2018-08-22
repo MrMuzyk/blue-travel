@@ -19,7 +19,7 @@ class WhyUs extends Component{
           <div className="why-us-item">
             <img src="/images/front-page/why-us/community.svg" className="why-us-item-image"/>
             <h3 className="why-us-item-title">Super ekipa</h3>
-            <p className="why-us-item-description">Nasz zgrany zespół zadba o to, żeby nikt się nie znudził</p>
+            <p className="why-us-item-description">Nasz zgrany zespół zadba o to, żeby nikt się nie nudził</p>
           </div>
         </div>
       </div>

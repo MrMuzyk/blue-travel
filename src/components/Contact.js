@@ -10,7 +10,7 @@ class Contact extends Component{
               <ul>
                 <li className="contact-section-content-details-item"><img src="/images/front-page/contact/phone.svg" className="contact-section-content-details-item-icon"/><p>+ 48 733 833 171</p></li>
                 <li className="contact-section-content-details-item"><img src="/images/front-page/contact/email.svg" className="contact-section-content-details-item-icon"/><p>przybylo.olgierd@gmail.com</p></li>
-                <li className="contact-section-content-details-item"><img src="/images/front-page/contact/internet.svg" className="contact-section-content-details-item-icon"/><p>www.bluetravel.com.pl</p></li>
+                <li className="contact-section-content-details-item"><img src="/images/front-page/contact/internet.svg" className="contact-section-content-details-item-icon"/><p>www.paperplanetravel.pl</p></li>
               </ul>
               </div>
             <div className="contact-section-conent-images-container">
